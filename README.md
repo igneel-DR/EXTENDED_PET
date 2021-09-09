@@ -8,6 +8,7 @@ Item_Proto.txt
 
 اذا كنت تريد اضافة لمعة الجرد للمرافق عندا الاستدعاء
 
+- root/uiinventory.py
 ```python
 if item.ITEM_TYPE_PET == item.GetItemType():
 				metinSocket = [player.GetItemMetinSocket(slotNumber, j) for j in xrange(player.METIN_SOCKET_MAX_NUM)]# <!> globalSlotNumber may be different <!>

@@ -1,6 +1,11 @@
 # EXTENDED_PET
 -DevMt2-ar.com -
 
+Item_Proto.txt
+```txt
+53001	불사조소환권	ITEM_PET	PET_PAY	1	ANTI_DROP | ANTI_SELL | ANTI_GIVE | ANTI_PKDROP | ANTI_STACK | ANTI_MYSHOP	LOG	NONE	NONE	0	0	0	0	0	LEVEL	0	REAL_TIME	2592000	APPLY_NONE	0	APPLY_NONE	0	APPLY_NONE	0	34001	0	0	0	0	0	0	0	0
+```
+
 اذا كنت تريد اضافة لمعة الجرد للمرافق عندا الاستدعاء
 
 ```python
@@ -14,21 +19,11 @@ if item.ITEM_TYPE_PET == item.GetItemType():
 ```
 
 بنسبة ل @@ITEM_TYPE_PET
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" 
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="100" height="50"
->
-  <text font-size="16" x="10" y="20">
-    <tspan fill="red">Hello</tspan>,
-    <tspan fill="green">world</tspan>!
-  </text>
-</svg>
+
 تستطيع اضافتها من 
 - GameLib/itemData.h 
-+ Dumproto/ItemCSVReader (قم بتطبيق نفس خطوات ProtoReader.cpp)
-! UserInterface/PythonItemModul.cpp
+- Dumproto/ItemCSVReader (قم بتطبيق نفس خطوات ProtoReader.cpp)
+- UserInterface/PythonItemModul.cpp
 -----------------------------------------
 اذا اصابك الكسل قم بستبدال 
 

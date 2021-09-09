@@ -1,4 +1,4 @@
-/* ÇÓÊÈÏá 
+/* Ã‡Ã“ÃŠÃˆÃÃ¡ 
 
 void CPetActor::SetName()
 
@@ -41,7 +41,7 @@ void CPetActor::SetName(const char* name)
 #endif
 
 
-/*  ÇÓÊÈÏá
+/*  Ã‡Ã“ÃŠÃˆÃÃ¡
 	this->SetName();
 */
 #ifdef ENABLE_EXTENDED_PET_SYSTEM
@@ -51,7 +51,7 @@ void CPetActor::SetName(const char* name)
 #endif
 
 
-/* ÇÖÝåÇ ÝæÞ
+/* Ã‡Ã–ÃÃ¥Ã‡ ÃÃ¦Ãž
 
 size_t CPetSystem::CountSummoned() const
 
@@ -74,25 +74,3 @@ bool CPetSystem::IsActivePet()
 	return state;
 }
 #endif
-
-
-
-void CPetActor::SetSummonItem(LPITEM pItem)
-{
-	if (NULL == pItem)
-	{
-		LPITEM pSummonItem = ITEM_MANAGER::instance().FindByVID(m_dwSummonItemVID);
-		if (NULL != pSummonItem)
-#ifdef ENABLE_EXTENDED_PET_SYSTEM
-			pSummonItem->SetSocket(1, false);
-#endif
-		m_dwSummonItemVID = 0;
-		m_dwSummonItemVnum = 0;
-		return;
-	}
-#ifdef ENABLE_EXTENDED_PET_SYSTEM
-	pItem->SetSocket(1, true);
-#endif
-	m_dwSummonItemVID = pItem->GetVID();
-	m_dwSummonItemVnum = pItem->GetVnum();
-}

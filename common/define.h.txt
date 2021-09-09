@@ -1,0 +1,1 @@
+#define ENABLE_EXTENDED_PET_SYSTEM																	// Renewal Pet like Official

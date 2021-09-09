@@ -6,7 +6,7 @@ Item_Proto.txt
 53001	불사조소환권	ITEM_PET	PET_PAY	1	ANTI_DROP | ANTI_SELL | ANTI_GIVE | ANTI_PKDROP | ANTI_STACK | ANTI_MYSHOP	LOG	NONE	NONE	0	0	0	0	0	LEVEL	0	REAL_TIME	2592000	APPLY_NONE	0	APPLY_NONE	0	APPLY_NONE	0	34001	0	0	0	0	0	0	0	0
 ```
 
-اذا كنت تريد اضافة لمعة الجرد للمرافق عندا الاستدعاء
+اذا كنت تريد اضافة لمعة الجرد للمرافق عند الاستدعاء
 
 - root/uiinventory.py
 ```python

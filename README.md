@@ -1,7 +1,11 @@
 # EXTENDED_PET
 # [-DevMt2-ar.com-](https://devmt2-ar.com)
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://i.gyazo.com/b26265a1a675f4f687e98c6af4bce395.mp4)
+
+
+https://user-images.githubusercontent.com/23616357/133128613-fb8659c1-1956-4aca-9f6a-b36f39532a45.mp4
+
+
 
 Item_Proto.txt
 ```txt

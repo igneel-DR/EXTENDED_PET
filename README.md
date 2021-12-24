@@ -42,4 +42,4 @@ if item.ITEM_TYPE_PET == item.GetItemType():
   if itemVnum >= 53001 and itemVnum <= 53256:
 ```
 
-Thank for Hammer - Astro
+Thanks for Hammer - Astro

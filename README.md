@@ -1,5 +1,5 @@
 # EXTENDED_PET
-# [-DevMt2-ar.com-](https://devmt2-ar.com)
+# [-mt2academy.com-](https://mt2academy.com/)
 
 
 

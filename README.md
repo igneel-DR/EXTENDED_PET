@@ -1,5 +1,4 @@
 # EXTENDED_PET
-# [-mt2academy.com-](https://mt2academy.com/)
 
 
 
@@ -12,8 +11,7 @@ Item_Proto.txt
 53001	불사조소환권	ITEM_PET	PET_PAY	1	ANTI_DROP | ANTI_SELL | ANTI_GIVE | ANTI_PKDROP | ANTI_STACK | ANTI_MYSHOP	LOG	NONE	NONE	0	0	0	0	0	LEVEL	0	REAL_TIME	2592000	APPLY_NONE	0	APPLY_NONE	0	APPLY_NONE	0	34001	0	0	0	0	0	0	0	0
 ```
 
-اذا كنت تريد اضافة لمعة الجرد للمرافق عند الاستدعاء
-
+if you want to add pet effect =>
 - root/uiinventory.py
 ```python
 if item.ITEM_TYPE_PET == item.GetItemType():
@@ -24,16 +22,14 @@ if item.ITEM_TYPE_PET == item.GetItemType():
 				else:
 					self.wndItem.DeactivateSlotOld(i)
 ```
+for -> @@ITEM_TYPE_PET
 
-بنسبة ل @@ITEM_TYPE_PET
-
-تستطيع اضافتها من 
+you can add =>
 - GameLib/itemData.h 
 - Dumproto/ItemCSVReader (قم بتطبيق نفس خطوات ProtoReader.cpp)
 - UserInterface/PythonItemModul.cpp
 -----------------------------------------
-اذا اصابك الكسل قم بستبدال 
-
+if you lazy just do =>
 ```python
   if item.ITEM_TYPE_PET == item.GetItemType():
 ```

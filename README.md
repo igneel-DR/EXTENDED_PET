@@ -26,7 +26,7 @@ for -> @@ITEM_TYPE_PET
 
 you can add =>
 - GameLib/itemData.h 
-- Dumproto/ItemCSVReader (قم بتطبيق نفس خطوات ProtoReader.cpp)
+- Dumproto/ItemCSVReader (Do the same for ProtoReader.cpp)
 - UserInterface/PythonItemModul.cpp
 -----------------------------------------
 if you lazy just do =>
